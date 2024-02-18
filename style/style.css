@@ -1,0 +1,81 @@
+
+    .bus {
+    color: rgb(29, 209, 0);        
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+.btnbus{
+    box-sizing: border-box;
+    border: 1px solid rgba(29, 209, 0, 0.4);
+    border-radius: 12px;
+    margin-left: 230px;
+    background: rgba(29, 209, 0, 0.1);
+    width: 130px;
+    height: 56px;
+    padding: 16px 30px 16px 30px;
+    margin-right: 25px;
+    
+ } 
+
+ .banner-title{
+padding-top: 65px;
+inline-size: auto;
+font-family: Manrope;
+font-size: 40px;
+font-weight: 800;
+line-height: 86px;
+letter-spacing: 0px;
+text-align: center;
+ }
+ .mb-5{
+
+
+align-items: center;
+color: rgb(255, 255, 255);
+font-family: Manrope;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: center;
+
+ }
+ .buyticketbtn{ 
+
+    width: 150px;
+    height: 50px;
+    font-size: small; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgb(29, 209, 0);
+    margin-left: -50pxS;
+ }
+ .text{
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(3, 7, 18);
+    font-family: Raleway; 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+} 
+.best{ color: rgb(3, 7, 18);
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;}
+
+    .coupon-card{
+        width: 575px;
+        height: 220px;
+        
+        border-radius: 24px;
+        background-color:goldenrod;
+    }

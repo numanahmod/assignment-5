@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Greenline bus service </title>
+ <!-- daisyUi link  -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font-manrope  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- css limk -->
+<link rel="stylesheet" href="style/style.css">
+<style>
+  .font-manrope{ 
+      font-family: 'Manrope', sans-serif;
+  }
+  </style>
+</head>
+<body class="font-manrope lg:w-[1200px] lg:m-auto m-5">
+    <header class="">
+<!-- navbar -->
+<nav class="laptop">
+    <div class="navbar -ml-4">
+        <div class="navbar-start">
+          <a style="color: #131318;font-family: Manrope;
+          font-size: 36px;font-style: normal; font-weight: 800;line-height: normal; margin-left: 25px;">P-Ticket</a>
+        </div>
+        <div class="navbar-center lg:flex">
+          <ul class="menu menu-horizontal">
+            <li><a class="home">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+
+        </div>
+        <div class="navbar-end gap-8 btnbus">
+          <button class="btnnav inline-flex gap-2"><span class="bus"> Bus </span> <svg width="21.500000" height="15.500854" viewBox="0 0 21.5 15.5009" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Vector" d="M3.33582 14.165C3.71082 14.5402 4.2196 14.7509 4.75 14.7509C5.2804 14.7509 5.78918 14.5402 6.16418 14.165C6.53931 13.79 6.75 13.2812 6.75 12.7509C6.75 12.2205 6.53931 11.7117 6.16418 11.3367C5.78918 10.9615 5.2804 10.7509 4.75 10.7509C4.2196 10.7509 3.71082 10.9615 3.33582 11.3367C2.96069 11.7117 2.75 12.2205 2.75 12.7509C2.75 13.2812 2.96069 13.79 3.33582 14.165ZM15.3358 14.165C15.7108 14.5402 16.2196 14.7509 16.75 14.7509C17.2804 14.7509 17.7892 14.5402 18.1642 14.165C18.5393 13.79 18.75 13.2812 18.75 12.7509C18.75 12.2205 18.5393 11.7117 18.1642 11.3367C17.7892 10.9615 17.2804 10.7509 16.75 10.7509C16.2196 10.7509 15.7108 10.9615 15.3358 11.3367C14.9607 11.7117 14.75 12.2205 14.75 12.7509C14.75 13.2812 14.9607 13.79 15.3358 14.165ZM2.75 12.7509L0.75 12.7509L0.75 1.75085C0.75 1.4856 0.855347 1.23132 1.04285 1.0437C1.23047 0.856201 1.48474 0.750854 1.75 0.750854L15.75 0.750854C17.076 0.750854 18.3479 1.4884 19.2855 2.80115C20.2233 4.11389 20.75 5.89429 20.75 7.75085L20.75 12.7509L18.75 12.7509M14.75 12.7509L6.75 12.7509M14.75 0.750854L16.25 7.75085L20.75 7.75085M0.75 5.75085L15.75 5.75085M5.75 0.750854L5.75 5.75085M10.75 0.750854L10.75 5.75085" stroke="#1DD100" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+        </svg>
+         </button>
+        </div>
+      </div>
+</nav> 
+<!-- banner section -->
+       <section>
+        <div class="banner bg-no-repeat min-h-screen" style="background-image: url(images/banner.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="banner-title">End-to-End Travel with <br><span class="text-lime-500 text-4xl "> G Paribahan</span> </h1>
+              <p class="mb-5">Welcome To GreenLine. Green Line Paribahan is apparently a family owned transport company specializing in transportation of passenger bus services since 1990.</p>
+              <button class="buyticketbtn"> <span class="text"> Buy Ticket</span> </button>
+            </div>
+          </div>
+        </div>
+       </section>
+    </header>
+    <!-- main  -->
+    <main>
+      <!-- Best offers for you section -->
+      <section class="">
+        <h2 class="best"> Best offers for you</h2>
+        
+        <div class="flex grid-cols-2  gap-6">
+          <div class="text-primary-content">
+            <div class="coupon-card grid grid-cols-2">
+              <div> <h2 class="card-title">15% OFF
+              </h2>
+            <p>on your next purchase <br>
+              <span>use by January 2024</span></p> </div>
+              <div> <img class="w-20 h-80" src="images/info-devider.png" alt=""></div>
+
+              <div> <h2 class="card-title">NEW15</h2>
+                <p>Coupon Code</p></div>
+              <!-- <div class="card-actions justify-end">
+                 
+              </div> -->
+            </div>
+          </div>
+         
+           
+        
+          <div class="text-primary-content">
+            <div class="coupon-card grid grid-cols-2">
+              <div> <h2 class="card-title">15% OFF
+              </h2>
+            <p>on your next purchase <br>
+              <span>use by January 2024</span></p> </div>
+              <div> <img class="w-20 h-80" src="images/info-devider.png" alt=""></div>
+
+              <div> <h2 class="card-title">NEW15</h2>
+                <p>Coupon Code</p></div>
+              <!-- <div class="card-actions justify-end">
+                 
+              </div> -->
+            </div>
+          </div>
+         
+        </div> 
+      </section>
+
+    </main>
+    <!-- footer -->
+    <footer>
+
+    </footer>
+    <!-- javascript link  -->
+    <script src="java/script.js"></script>
+</body>
+</html>
