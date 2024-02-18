@@ -1,4 +1,5 @@
-
+/* navbar
+ */
     .bus {
     color: rgb(29, 209, 0);        
     font-family: manrope;
@@ -19,7 +20,7 @@
     margin-right: 25px;
     
  } 
-
+ /* banner section  */
  .banner-title{
 padding-top: 65px;
 inline-size: auto;
@@ -31,8 +32,6 @@ letter-spacing: 0px;
 text-align: center;
  }
  .mb-5{
-
-
 align-items: center;
 color: rgb(255, 255, 255);
 font-family: Manrope;
@@ -65,6 +64,9 @@ text-align: center;
     letter-spacing: 0px;
     text-align: center;
 } 
+/* <!-- Best offers for you section --> */
+
+
 .best{ color: rgb(3, 7, 18);
     font-family: Raleway;
     font-size: 40px;
@@ -79,3 +81,46 @@ text-align: center;
         border-radius: 24px;
         background-color:goldenrod;
     }
+    .copon-img{
+        margin-left: 120px;
+       
+    }
+    .btnSeeMore{
+        width: 190px;
+        height: 70px;
+        color: rgb(29, 209, 0);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0px;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgb(29, 209, 0);
+border-radius: 12px;
+justify-content: center;
+align-items: center;
+padding: 21px 30px 21px 30px;
+justify-items: center;
+margin-left: 500px;
+margin-top: 30px;
+margin-bottom: 70px;
+    }
+    /* ph paribahan start */
+    
+
+    .phParibahan{
+width: 1200px;
+box-sizing: border-box;
+border-top: 2px solid rgb(29, 209, 0);
+border-radius: 88px 88px 0px 0px;
+background: rgb(247, 248, 248);
+    }
+.seat40{
+    color: rgb(29, 209, 0);
+    padding-top: 10px;
+    padding-left: -200px;
+    border-radius: 16px;
+    /* margin-right: -800px; */
+}
+    
