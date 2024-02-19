@@ -118,4 +118,54 @@ if ( totalMoney>= 550 ) {
 }
 
 
+document.getElementById("dis1").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+
+document.getElementById("dis2").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+document.getElementById("dis3").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+document.getElementById("dis4").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+document.getElementById("dis5").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+document.getElementById("dis6").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+document.getElementById("dis7").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+document.getElementById("dis8").onclick = function() {
+    //disable
+    this.disabled = true;
+
+    //do some validation stuff
+}
+
 
