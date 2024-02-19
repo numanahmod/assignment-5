@@ -81,6 +81,13 @@ text-align: center;
         border-radius: 24px;
         background-color:goldenrod;
     }
+    .coupon-card2{
+        width: 575px;
+        height: 220px;
+        
+        border-radius: 24px;
+        background: rgb(247, 140, 156);
+    }
     .copon-img{
         margin-left: 120px;
        
@@ -124,3 +131,85 @@ background: rgb(247, 248, 248);
     /* margin-right: -800px; */
 }
     
+.sylhet{
+/* Rectangle 10 */
+
+width: 808px;
+height: 258px;
+border-radius: 24px;
+
+background: rgb(247, 248, 248);
+}
+
+.boarding{
+width: 232px;
+height: 56px;
+border-radius: 12px;
+background: rgba(3, 7, 18, 0.05);
+text-align: center;
+padding-top: 15px;
+font-size: 16px;
+font-weight: 500;
+}
+.drivingbtn{
+    /* Rectangle 12 */
+justify-content: center;
+justify-items: center;
+width: 110px;
+height: 56px;
+border-radius: 12px;
+
+background: rgba(3, 7, 18, 0.1);
+padding-left: 35px;
+padding-bottom: 20px;
+padding-top: 15px;
+margin-top: 20px;
+margin-left: 490px;
+}
+.kb{
+width: 110px;
+height: 56px;
+border-radius: 12px;
+background: rgb(247, 248, 248);
+gap: 5px;
+margin: 3px;
+}
+
+.booking{
+    
+width: 500px;
+border-radius: 12px;
+background: rgb(247, 248, 248);
+}
+.seat{
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    border-color: darkcyan;
+    background-color: darkgrey;
+}
+.seat-count{
+color: white;
+border-radius: 5px;
+background: rgb(29, 209, 0);
+} 
+
+.nextbtn{ 
+width: 433px;
+height: 65px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 30px 21px 30px;
+border-radius: 16px;
+background: rgb(29, 209, 0);
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 800;
+line-height: 23px;
+letter-spacing: 0px;
+text-align: center;
+margin-left: 30px;
+}

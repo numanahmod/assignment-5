@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<!-- css limk -->
+<!-- css link -->
 <link rel="stylesheet" href="style/style.css">
 <style>
   .font-manrope{ 
@@ -20,7 +20,7 @@
   </style>
 </head>
 <body class="font-manrope lg:w-[1200px] lg:m-auto m-5">
-    <header class="">
+    <header id="" class="">
 <!-- navbar -->
 <nav class="">
     <div class="navbar -ml-4">
@@ -57,7 +57,7 @@
             <div class="max-w-md">
               <h1 class="banner-title">End-to-End Travel with <br><span class="text-lime-500 text-4xl "> G Paribahan</span> </h1>
               <p class="mb-5">Welcome To GreenLine. Green Line Paribahan is apparently a family owned transport company specializing in transportation of passenger bus services since 1990.</p>
-              <button class="buyticketbtn"> <span class="text"> Buy Ticket</span> </button>
+              <button onclick="" class="buyticketbtn text"> Buy Ticket  </button>
             </div>
           </div>
         </div>
@@ -88,11 +88,12 @@
          
            
         
-            <div class="coupon-card grid grid-cols-3">
+            <div class="coupon-card2 grid grid-cols-3">
               <div class="pt-14 pl-4 font-sans"> <h2 class=" text-4xl text-black font-bold">20% OFF
               </h2>
             <p class="text-slate-900 inline-block "> on your next purchase <br>
-              <span class="text-slate-500">use by February 2024</span></p> </div>
+              <span class="text-slate-500">use by February 2024</span></p> 
+            </div>
               <div> <img class="copon-img h-[220px]" src="images/info-devider.png" alt=""></div>
 
               <div class="pt-20 pl-4"> <h2 class="text-2xl text-black font-bold">Couple 20</h2>
@@ -111,30 +112,234 @@
         <p class="text-center"> Book Green Line Paribahan bus tickets hassle-free with 12Go! <br> Browse schedules, prices, and reviews online to plan your perfect trip. Try 12Go today!</p>
 
       </section>
-     <div class=" grid grid-cols-3 ">
+     <div class=" grid grid-cols-3">
       <!-- small nevbar  1st div-->
-      <div class="w-[800px] -ml-24">
-        <div class="grid grid-cols-2 justify-items-end">
-          <div><h2 class="inline-flex"><img src="images/bus-logo.png" alt=""> Greenline Paribahan <br> Coach-009-WEB ! AC_Business</h2>
+      <div class="">
+        <div class="grid grid-cols-2 justify-items-end mt-8 w-[800px] -ml-12">
+          <div><div class="inline-flex"><img src="images/bus-logo.png" alt=""> <p><span class="text-[30px] font-bold text-black best">Greenline Paribahan</span> <br> Coach-009-WEB ! AC_Business</p></div>
           
           </div>
           <div> 
             <div> 
-            <button class="seat40 inline-flex w-52 h-16 bg-slate-300 font-sans font-bold text-2xl"> <img src="images/seat-green.png" alt="">  <span> 40 </span>Seats left</button>
+            <button class="seat40 inline-flex w-52 h-16 bg-slate-300 font-sans font-bold text-2xl"> <img src="images/seat-green.png" alt="">  <span id="tseat"> 8 </span>Seats left</button>
             </div>
           </div>
         </div>
+
+        <div class="sylhet p-6">
+           <!-- dhaka sylhet route -->
+          <div class="grid grid-cols-2  pt-4 mb-6">
+            <div>
+              <p class="">Route</p>
+            </div>
+            <div> 
+              <p class="pl-60">Dhaka - Sylhet</p>
+            </div>
+          </div>
+          <hr>
+          <div class="grid grid-cols-2  pt-4 mb-2 mt-2">
+            <div>
+              <p class="">Departure Time</p>
+            </div>
+            <div> 
+              <p class="pl-60">9:00 PM</p>
+            </div>
+          </div>
+          <hr>
+          <div class="grid grid-cols-3  pt-4 mb-2 mt-2">
+            <p class="boarding">Boarding Point - Narsingdi</p>
+            <p class="boarding">Dropping Point - Habiganj</p>
+            <p class="boarding">Est. Time - 11 Hour</p>
+          </div>
+        </div>
+
       </div>
       <!-- img 2nd div -->
-      <div class="w-[80px] -mr-72"><img class="copon-img h-[] " src="images/info-devider.png" alt=""></div>
+      <div class="w-[80px] ml-96"><img class="copon-img h-[] " src="images/info-devider.png" alt=""></div>
       <!-- per seat price 3rd div  -->
-      <div class="w-[px] mt-32 mr-20">
+      <div class="w-[px] mt-32 ml-60 mr-10">
         <img src="images/fare.png" alt="">
-        <h1 class="text-xl font-bold">550 Taka</h1>
+        <h1 id="" class="text-[20px] font-bold ticket"><span >550 </span>Taka</h1>
         <p>Per Seat</p>
       </div>
      </div>
+
+     <!-- section select your seat  -->
+     <section>
+      <div class="grid grid-cols-3 ">
+           <!-- select your seat  -->
+        <div>
+          <h3 class="pb-5 text-3xl font-bold">Select Your Seat</h3>
+          <hr class="w-[600px]">
+          <div class="grid grid-cols-2 ">
+            <div>
+              <p class="inline-flex"><img src="images/seat-gray.png" alt=""> Available</p>
+            </div>
+            <div class="pl-72"> 
+              <p class="inline-flex seat40"><img class=" " src="images/seat-green-filled.png" alt=""> Selected</p>
+            </div>
+          </div>
+          <hr class="w-[600px]">
+          <button class="drivingbtn"><svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Vector" d="M1.91333 17.5922C2.5166 19.0481 3.40039 20.371 4.51465 21.4853C5.62891 22.5996 6.9519 23.4835 8.40771 24.0865C9.86377 24.6896 11.4241 25 13 25C14.5759 25 16.1362 24.6896 17.5923 24.0865C19.0481 23.4835 20.3711 22.5996 21.4854 21.4853C22.5996 20.371 23.4834 19.0481 24.0867 17.5922C24.6897 16.1363 25 14.5759 25 13C25 11.4241 24.6897 9.86371 24.0867 8.40781C23.4834 6.9519 22.5996 5.62903 21.4854 4.51471C20.3711 3.40042 19.0481 2.51651 17.5923 1.91345C16.1362 1.31039 14.5759 1 13 1C11.4241 1 9.86377 1.31039 8.40771 1.91345C6.9519 2.51651 5.62891 3.40042 4.51465 4.51471C3.40039 5.62903 2.5166 6.9519 1.91333 8.40781C1.3103 9.86371 1 11.4241 1 13C1 14.5759 1.3103 16.1363 1.91333 17.5922ZM11.1145 14.8856C11.6145 15.3857 12.2927 15.6667 13 15.6667C13.7073 15.6667 14.3855 15.3857 14.8855 14.8856C15.3857 14.3855 15.6667 13.7072 15.6667 13C15.6667 12.2928 15.3857 11.6145 14.8855 11.1144C14.3855 10.6143 13.7073 10.3333 13 10.3333C12.2927 10.3333 11.6145 10.6143 11.1145 11.1144C10.6143 11.6145 10.3333 12.2928 10.3333 13C10.3333 13.7072 10.6143 14.3855 11.1145 14.8856ZM13 15.6667L13 25M10.3333 13L1.33325 10.3333M15.6667 13L24.6667 10.3333" stroke="#030712" stroke-opacity="0.700000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+           </button>
+           <!-- seat button  -->
+        <div>
+          <!-- <div id="buttonk" class="grid grid-cols-5 justify-center w-full ">
+            <kbd>A</kbd>
+            <kbd onclick="btnk()" id="A1" class="kb"> A1 </kbd>
+            <kbd onclick="btnk()" id="A2" class="kb"> A2 </kbd>
+            <kbd onclick="btnk()" id="A3" class="kb"> A3 </kbd>
+            <kbd onclick="btnk()" id="A4" class="kb"> A4 </kbd>
+          </div> -->
+          <div class="flex justify-center gap-5 my-1 mb-4 mt-5 ml-10">
+            <KBD>A</KBD>
+
+            <button onclick="colorSet()" class="seat w-28"> <p>A1</p> </button>
+            <button onclick="colorSet()"  class="seat"> <p>A2</p> </button>
+            <button onclick="colorSet()"  class="seat ml-24"> <p>A3</p> </button>
+            <button onclick="colorSet()"  class="seat "> <p>A4</p> </button>
+
+          </div> 
+          <div class="flex justify-center gap-5 my-1 mb-4 ml-10">
+            <KBD>B</KBD>
+            <button onclick="colorSet()"  class="seat"> <p>B1</p> </button>
+            <button onclick="colorSet()"  class="seat"> <p>B2</p> </button>
+            <button onclick="colorSet()"  class="seat ml-24"><p>B3</p> </button>
+            <button onclick="colorSet()"  class="seat "> <p>B4</p> </button>
+      
+          </div> 
+          <!-- <div class="flex justify-center gap-20 my-1 w-full mb-4">
+            <Kbd>C</Kbd>
+            <kbd class="kbd">C1</kbd>
+            <kbd class="kbd">C2</kbd>
+            <kbd class="kbd ml-12">C3</kbd>
+            <kbd class="kbd -mr-48">C4</kbd>
+          
+          </div> -->
+        </div>
+        </div>
+        <div class="pl-60"><svg width="2.000000" height="992.000000" viewBox="0 0 2 992" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <desc>
+              Created with Pixso.
+          </desc>
+          <defs/>
+          <line id="Line 1" x1="1.000000" y1="0.000000" x2="1.000000" y2="992.000000" stroke="#030712" stroke-opacity="0.300000" stroke-width="2.000000" stroke-dasharray="5.000000,5.000000"/>
+        </svg>
+
+        </div>
+
+        <!-- payment option  -->
+        <div>
+          <h3 class="text-3xl font-bold -ml-28">Select Your Seat</h3>
+          <!-- BOOKING TICKET SECTION  -->
+          <div class="booking -ml-28 mt-10">
+            <div class="grid grid-cols-3 text-2xl font-bold p-6 pl-10 justify-items-start ">
+              <p> Seat <span id="count-seat-booking" class="seat-count">0</span> </p>
+              <p> Class </p>
+              <p> Price </p>
+            </div>
+            <hr>
+            <div id="seat-selected" class=" grid grid-cols-3 text-2xl font-bold p-6 pl-10 justify-items-start"> </div>
+            <hr>
+            
+            <div class="grid grid-cols-2 text-xl font-bold p-6 pl-10  "> 
+              <p> Total Price  </p>
+              <p class="ml-10"> BDT <span id="total-amount"></span></p>
+            </div> 
+            <!-- apply copon button  -->
+            <div class="">
+              <div>
+                <div class="bg-white p-6 rounded-md ml-5">
+                  <div class="join w-[370px] h-[60px]">
+                    <input
+                      id="input-field"
+                      class="input input-bordered join-item w-[370px] h-[60px] "
+                      placeholder="Have coupon?"
+                    />
+                    <button
+                      id="apply-btn"
+                      class="join-item rounded-md bg-[rgb(26,241,62)] text-white font-bold text-xl  w-[100px] h-[60px]">
+                      Apply
+                    </button>
+                  </div>
+                </div>
+              
+                
+                  <!-- grand total  -->
+                  <div class="grid grid-cols-2 text-xl font-bold p-6 pl-10  "> 
+                    <p> Grand Total   </p>
+                    <p class="ml-10"> BDT <span id="total"></span></p>
+                  </div> 
+
+            <!-- added next button  --> 
+             <div>
+              <button onclick="my_modal_1.showModal()" class="nextbtn">Next </button>
+              <!-- Open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box">
+    <div> <img class="ml-40" src="images/success.png" alt=""></div>
+    <h2 style="
+         border: 2px;
+         color: rgb(39, 174, 96);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-right: 30px;
+         ">SUCCESS</h2> 
+         <h4 style="text-align: center; font-size: medium;">Thank you for Booking Our Bus Seats. <br>
+          We are working hard to find the best service and deals for you. <br> 
+         <span class="text-slate-400"> Shortly you will find a confirmation in your email.</span></h4>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button style="width: 300px; height: 60px; border-radius: 32px;background: rgb(39, 174, 96); align-items: center; color: rgb(255, 255, 255); margin-right: 75px;" class="btn">Continue </button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+             </div>
+          </div>
+        </div>
+       </div>
+     </section>
     </main>
+    <!-- next show option  -->
+    <div id="success" class="hidden" style="width: 800px; height: 500px; border-radius: 16px;background-color: rgb(236, 233, 233); justify-items: center;"> 
+      <img style="
+      margin-top: 100px;
+      margin-left: 350px;
+      width: 100px;
+      height: 97.88px;
+      " src="images/success.png" alt="">
+       <h2 style="
+       border: 2px;
+       width: 631px;
+       height: 28px;
+       color: rgb(39, 174, 96);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-left: 78px;
+       ">SUCCESS</h2>
+
+       <h4 style="text-align: center; font-size: medium;">Thank you for Booking Our Bus Seats. <br>
+          We are working hard to find the best service and deals for you. <br> 
+         <span class="text-slate-400"> Shortly you will find a confirmation in your email.</span></h4>
+         <button  style="width: 300px; height: 60px; border-radius: 32px;background: rgb(39, 174, 96); align-items: center; margin-left: 250px; color: rgb(255, 255, 255);"> Continue</button>
+
+  </div>
     <!-- footer -->
     <footer>
       <footer class="footer p-10 bg-base-300 text-base-content">
@@ -161,19 +366,7 @@
           </div>
         </nav>
       </footer>
-      <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
-        <aside class="items-center grid-flow-col">
-          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
-          <p>ACME Industries Ltd. <br>Providing reliable tech since 1992</p>
-        </aside> 
-        <nav class="md:place-self-center md:justify-self-end">
-          <div class="grid grid-flow-col gap-4">
-            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
-            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
-            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
-          </div>
-        </nav>
-      </footer>
+      
 
     </footer>
     <!-- javascript link  -->
